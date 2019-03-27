@@ -1,0 +1,149 @@
+/* Navigation Bar */
+.navbar-collapse.collapse.in{
+  background-color: #0000004d;
+}
+.navbar-collapse.collapsing{
+  background-color: #0000004d;
+}
+
+.navbar{
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.navbar.container-fluid{
+  height: 52px;
+}
+
+.navbar a{
+  font-family: 'Archivo', sans-serif;
+  color: #fff;
+  height: 52px;
+  text-align: center;
+}
+
+a:hover{
+  color: #ffffffe6;
+  background-color: #fffefe00;
+}
+
+.nav > li > a:focus, .nav > li > a:hover{
+  color: #ffffff80;
+  background-color: #fffefe00;
+}
+
+li{
+  margin: auto 2px;
+}
+
+.navbar-brand{
+  font-family: 'Archivo', sans-serif;
+  color: #ffffffe6;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.navbar-toggle{
+  border-color: #e6e8ed80;
+  border-radius: 5px;
+}
+
+.icon-bar{
+  background-color: #ffffffe6;
+}
+
+nav{
+  padding-left: 80px;
+  padding-right: 80px;
+  font-size: 18px;
+  height: 52px;
+}
+
+nav.shrink{
+  padding-left: 80px;
+  padding-right: 80px;
+  background-color: #1a1a1ab3;
+  height: 52px;
+  padding-top: 0px;
+}
+
+/* Parallax Background Effect */
+.parallax {
+  /* The image used */
+  background-image: url('../img/mac.png');
+  /* Set a specific height */
+  min-height: 300px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Style the header: fixed position (always stay at the bottom) */
+.prog-bar {
+ position: fixed !important;
+ bottom: 0;
+ z-index: 1;
+ width: 100%;
+ background-color: #f1f1f1;
+}
+
+/* The progress container (grey background) */
+.progress-container {
+ width: 100%;
+ height: 6px;
+ background: #ccc;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+ height: 6px;
+ background: #1a1a1ab3;
+ width: 0%;
+}
+
+/* Footer */
+footer{
+  background-color: #1a1a1ae6;
+}
+
+.social{
+  margin: 20px auto 70px auto;
+}
+
+footer a{
+  color: #ffffffe6;
+  margin: auto 10px;
+}
+
+footer a:hover{
+  color: #ffffff80;
+}
+
+footer h2{
+  color: #fff;
+  margin-top: 30px;
+}
+
+/* content */
+.content{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: center;
+}
+
+.content h3{
+  width: 20%;
+  text-align: center;
+}
+
+.content p{
+  width: 70%;
+  margin-top: 20px;
+}
